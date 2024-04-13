@@ -1,0 +1,16 @@
+.idea/
+.vscode/
+*.iml
+.env
+.DS_Store
+venv/
+.pytest_cache/
+**__pycache__/
+**.csv
+pyproject.toml
+test.py
+log.log
+main_copy.py
+data.json
+creds.json
+quickstart.py
