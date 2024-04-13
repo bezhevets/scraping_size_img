@@ -71,6 +71,7 @@ def save_data_to_google(client, value) -> None:
     sheet2 = client.open("test")
     sheet_instance2 = sheet2.get_worksheet(0)
     sheet_instance2.update(range_name="A2", values=value)
+    sheet_instance2.format("B", {"backgroundColor": {"red": 1.0, "green": 0.6, "blue": 0.0}})
 
 
 def main() -> None:
